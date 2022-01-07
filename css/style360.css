@@ -41,4 +41,58 @@
   .message__data {
     margin-top: 10px;
   }
+
+  /* Pop__Ups     */
+
+  .pop__ups {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: rgb(150, 170, 207);
+  }
+
+  .popup__0801 {
+    display: none;
+  }
+
+  .new__message {
+    padding-top: 4px;
+  }
+  .trubka {
+    padding: 0px 20px 0px 0px;
+  }
+
+  .pop__body {
+  }
+  .pop__date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+  .pop__block {
+    display: flex;
+  }
+  .pop__avatar {
+    margin-left: 10px;
+  }
+  .pop__info {
+    width: 277px;
+    margin: 0px 20px 10px 10px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 226, 100);
+  }
+  .time {
+    margin-left: 55px;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 }
