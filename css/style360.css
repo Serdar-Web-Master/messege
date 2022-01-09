@@ -52,7 +52,10 @@
     background-color: rgb(150, 170, 207);
   }
 
-  .popup__0801 {
+  /* .popup__0801 {
+    display: none;
+  } */
+  .popup__0804 {
     display: none;
   }
 
@@ -94,5 +97,35 @@
     color: gray;
     font-size: 20px;
     margin-bottom: 20px;
+  }
+  .pop__footer {
+    display: flex;
+    width: 360px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #afb8b8;
+  }
+  .div__message {
+    width: 250px;
+    margin-left: 5px;
+  }
+  .enter__message {
+    width: 275px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 5px 0px 5px;
+  }
+  .div__skrepka {
+    width: 60px;
+    height: 60px;
+    margin: 6px 0px 0px 38px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .skrepka {
+    width: 100%;
   }
 }
